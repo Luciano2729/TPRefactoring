@@ -19,5 +19,14 @@ public class humain {
     public void details() {
         System.out.println(this.toString());
     }
+    
+    public void manger() {
+        System.out.println(nom + " mange.");
+    }
+
+    public void boire() {
+        System.out.println(nom + " boit.");
+    }
+
 
 }
