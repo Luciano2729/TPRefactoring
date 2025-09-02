@@ -11,8 +11,13 @@ public class humain {
         this.age = age;
     }
     
+    @Override
+    public String toString() {
+        return nom + " " + prenom + " (" + age + " ans)";
+    }
+
     public void details() {
-    System.out.println(nom + " " + prenom + " (" + age + " ans)");
-}
+        System.out.println(this.toString());
+    }
 
 }
