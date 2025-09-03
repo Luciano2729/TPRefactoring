@@ -15,7 +15,7 @@ public class femme extends humain {
     h.manger();  // "Jean mange."
     f.boire();   // "Sophie boit."
 
-    f.ami(h);    // "Sophie est ami avec Jean"
+    f.ami(h, 365);    // "Sophie est ami avec Jean"
 }
 
 }
