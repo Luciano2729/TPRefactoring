@@ -27,6 +27,11 @@ public class humain {
     public void boire() {
         System.out.println(nom + " boit.");
     }
+    
+    public void ami(humain h) {
+        System.out.println(this.nom + " est ami avec " + h.nom);
+    }
+
 
 
 }
